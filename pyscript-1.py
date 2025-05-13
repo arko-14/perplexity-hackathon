@@ -4,8 +4,8 @@ import random
 from pathlib import Path
 
 # CONFIG
-INPUT_DIR = Path("texts3")            # Directory containing your .txt files
-OUTPUT_CSV = Path("feb2011.csv")  # CSV output file
+INPUT_DIR = Path("texts4")            # Directory containing your .txt files
+OUTPUT_CSV = Path("may2011.csv")  # CSV output file
 NUM_FILES = 12                        # Number of random files to process
 
 # Gather all .txt files

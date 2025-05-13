@@ -14,7 +14,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 # Target URL for Jan 2010 Supreme Court cases
 base_url = "https://indiankanoon.org"
-search_url = "https://indiankanoon.org/search/?formInput=doctypes:supremecourt%20fromdate:1-2-2011%20todate:%2028-2-2011"
+search_url = "https://indiankanoon.org/search/?formInput=doctypes:supremecourt%20fromdate:1-5-2011%20todate:%2031-5-2011"
 driver.get(search_url)
 time.sleep(2)
 
@@ -77,9 +77,9 @@ while True:
 driver.quit()
 
 # Save to CSV
-with open("supreme_court_feb2011_cases.csv", "w", newline='', encoding='utf-8') as f:
+with open("supreme_court_may2011_cases.csv", "w", newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=["title", "url", "date", "description"])
     writer.writeheader()
     writer.writerows(case_data)
 
-print("✅ Finished. Data saved to 'supreme_court_feb2011_cases.csv'")
+print("✅ Finished. Data saved to 'supreme_court_may2011_cases.csv'")
