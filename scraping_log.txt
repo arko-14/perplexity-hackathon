@@ -1,0 +1,12 @@
+2025-05-11 22:49:23,125 - INFO - Starting scraping process
+2025-05-11 22:49:23,662 - INFO - Scraping completed. Results saved to links_Supreme_Court_of_India.json
+2025-05-11 22:49:33,197 - INFO - Starting scraping process
+2025-05-11 22:49:33,674 - INFO - Scraping completed. Results saved to links_Supreme_Court_of_India.json
+2025-05-11 22:49:41,514 - INFO - Starting scraping process
+2025-05-11 22:49:41,937 - INFO - Scraping completed. Results saved to links_Supreme_Court_of_India.json
+2025-05-11 22:50:05,188 - INFO - Starting scraping process
+2025-05-11 22:50:05,671 - INFO - Scraping completed. Results saved to links_Supreme_Court_of_India.json
+Starting the scraping process...
+
+Scraping completed. Saving results...
+Done!
