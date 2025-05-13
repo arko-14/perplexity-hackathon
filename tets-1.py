@@ -5,8 +5,8 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 # 1. Configuration
-CSV_FILE   = "supreme_court_jan2011_cases.csv"   # your input CSV (must have a column named "url")
-OUTPUT_DIR = "texts2"            # folder to save .txt files
+CSV_FILE   = "supreme_court_feb2011_cases.csv"   # your input CSV (must have a column named "url")
+OUTPUT_DIR = "texts3"            # folder to save .txt files
 HEADERS    = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
